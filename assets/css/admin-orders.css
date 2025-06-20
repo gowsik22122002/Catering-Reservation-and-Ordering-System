@@ -1,0 +1,104 @@
+/* NAVIGATION BAR - Consistent with Admin Pages */
+.navbar {
+  background-color: #800000;
+  padding: 15px 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.orders-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.orders-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #800000;
+}
+
+.filter-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.filter-bar select {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.orders-list {
+  display: grid;
+  gap: 20px;
+}
+
+.order-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.order-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.order-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.order-actions {
+  margin-top: 15px;
+}
+
+.order-actions button {
+  padding: 6px 12px;
+  font-size: 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.order-actions .confirm {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.order-actions .delete {
+  background-color: #dc3545;
+  color: #fff;
+}

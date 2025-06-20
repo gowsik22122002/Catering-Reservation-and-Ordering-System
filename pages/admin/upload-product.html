@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upload Product - Admin</title>
+  <link rel="stylesheet" href="../../assets/css/upload-product.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-title">Catering Admin</div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="upload-product.html" class="active">Upload Product</a></li>
+      <li><a href="orders.html">View Orders</a></li>
+      <li><a href="../../login.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Upload Product Section -->
+  <section class="auth-container">
+    <h2>Upload Product</h2>
+    <form id="productForm">
+      <input type="text" id="productName" placeholder="Product Name" required />
+      <input type="number" id="productPrice" placeholder="Price" required step="0.01" />
+      <textarea id="productDescription" placeholder="Description" required></textarea>
+      <button type="submit">Upload Product</button>
+    </form>
+  </section>
+
+  <script type="module" src="../../assets/js/upload-product.js"></script>
+</body>
+</html>

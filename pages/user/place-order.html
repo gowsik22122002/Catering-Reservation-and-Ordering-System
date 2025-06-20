@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Place Order - Catering System</title>
+  <link rel="stylesheet" href="../../assets/css/place-order.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-title">Catering System</div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html">Home</a></li>
+      <li><a href="cart.html">My Cart</a></li>
+      <li><a href="orders.html">My Orders</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="../../login.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <main class="place-order-container">
+    <h1>Confirm Your Order</h1>
+    <div id="orderSummary"></div>
+
+    <form id="orderForm">
+      <label for="address">Delivery Address:</label><br/>
+      <textarea id="address" required></textarea>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <script type="module" src="../../assets/js/place-order.js"></script>
+</body>
+</html>

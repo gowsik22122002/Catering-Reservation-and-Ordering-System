@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Orders - Catering System</title>
+  <link rel="stylesheet" href="../../assets/css/admin-orders.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-title">Catering Admin</div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="upload-product.html">Upload Product</a></li>
+      <li><a class="active" href="orders.html">Orders</a></li>
+      <li><a href="../../login.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Orders Section -->
+  <main class="orders-section">
+    <h1>User Orders</h1>
+
+    <div class="filter-bar">
+      <label for="filterStatus">Filter by Status:</label>
+      <select id="filterStatus">
+        <option value="all">All</option>
+        <option value="pending">Pending</option>
+        <option value="confirmed">Confirmed</option>
+      </select>
+    </div>
+
+    <div id="ordersList" class="orders-list">
+      <!-- Orders will be rendered here -->
+    </div>
+  </main>
+
+  <script type="module" src="../../assets/js/admin-orders.js"></script>
+</body>
+</html>

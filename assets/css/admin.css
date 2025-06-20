@@ -1,0 +1,52 @@
+.upload-product-section {
+  padding: 60px 20px;
+  background-color: #fffaf0;
+  text-align: center;
+}
+
+.upload-product-section h2 {
+  font-size: 28px;
+  color: #800000;
+  margin-bottom: 30px;
+}
+
+.product-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form button {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.product-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.product-form button {
+  background-color: #800000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.product-form button:hover {
+  background-color: #a00000;
+}
+
+#uploadStatus {
+  color: green;
+  font-size: 14px;
+}
